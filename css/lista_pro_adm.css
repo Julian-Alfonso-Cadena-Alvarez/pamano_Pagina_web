@@ -2,10 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: #29cb08;
+    background: #a3e209;
 }
 .borde{
-    border: 1px solid #030fb0;
+    border: 1px solid #8400ba;
 }
 
 /* Buscador */
@@ -38,7 +38,6 @@ nav{
     height: 100%;
     float:left;
 }
-
 /*Encabezado*/
 .indice{
     height: 30px;
@@ -47,79 +46,50 @@ nav{
 }
 .titulo{
     width: 100%;
-    height: 60px;
+    height: 50px;
     float: left;
 }
-/* centro*/
-main#Inventario{
+/*Lista*/
+main#lista{
     width: 100%;
-    height: 700px;
-}
-/* medio_der*/
-.medio_der{
-    width: 50%;
-    height: 100%;
+    height: 600px;
     float: left;
 }
-.arriba{
+/*Filtro de los productos*/
+.filtrar{
     width: 100%;
-    height: 33.33%;
+    height: 10%;
     float: left;
 }
-.medio{
-    width: 100%;
-    height: 33.33%;
-    float: left;
-}
-.abajo{
-    width: 100%;
-    height: 33.33%;
-    float: left;
-}
-/*Centralizacion del boton*/
-.sep_der{
+.espacio_der{
     width: 20%;
     height: 100%;
     float: left;
 }
-.sep_izq{
-    width: 20%;
-    height: 100%;
-    float: right;
+.espaco_arriba{
+    width: 100%;
+    height: 15%;
 }
-.sep_arr{
+.busca{
     width: 60%;
-    height: 25%;
+    height: 70%;
     float: left;
 }
-.boton{
-    width: 60%;
-    height: 50%;
+/*Lista de productos*/
+.bor_list{
+    width: 100%;
+    height: 90%;
+    float: left;
+
+}
+.bor_der{
+    width: 5%;
+    height: 90%;
     float: left;
 }
-.medio_izq{
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-.izq_sep_de{
-    width: 10%;
-    height: 100%;
-    float: left;
-}
-.izq_sep_izq{
-    width: 10%;
-    height: 100%;
-    float: right;
-}
-.izq_sep_arr{
-    width: 60%;
-    height: 6.5%;
-    float: left;
-}
-.izqboton{
-    width: 80%;
-    height: 87%;
+.lis{
+    width: 90%;
+    height: 90%;
     float: left;
 }
 footer{
