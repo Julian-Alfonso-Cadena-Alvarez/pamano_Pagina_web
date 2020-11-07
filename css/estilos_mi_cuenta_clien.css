@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin: 10px 20px 10px;
+    text-align: center;
+    font-size: 23px;
+    color: #0c97cb;
+}
+p{
+    color: #0c97cb;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.borde{
+    border: 1px solid black;
+}
+
+/*NAVEGACION*/
+nav{
+    width: 100%;
+    height: 60px;
+    margin-top: 1px;
+
+ }
+.logo{
+    width: 15%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.logo img{
+    width: 30%;
+    height: 100%;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    border-radius: 100%;
+}
+/*Inicio de Buscador*/
+.navegacion{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+.navegacion1{
+    width: 57%;
+    height: 100%;
+    float: right;
+    padding-top: 2px;
+}
+.Buscador{
+    text-align: left;
+    width: 36%;
+    height: 50%;
+    padding:10px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2px;
+    border-radius: 5px;
+}
+.btn_buscar{
+    background: #FFBF69;
+    color: inherit;
+    font-size: 13px;
+    padding: 5px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+/*Nivel 0*/
+nav ul{
+	list-style: none;
+	text-align: right;
+}
+nav ul li{
+    margin-right: 2px;
+	display: inline-block;
+	width: 130px;
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color:#FF9F1C;
+	font-weight: bold;
+	text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+	padding: 10px 2px;
+	border-bottom: 2px solid #d17900;
+}
+nav ul li a:hover{
+	background: rgba(189, 189, 189, 0.5);
+}
+
+/*Fin del Buscador*/
+.seccion{
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+.icon_sec{
+    width: 30%;
+    height: 100%;
+    float: left;
+
+}
+.icon{
+    text-align: center;
+    width: 70%;
+    height: 70%;
+    float: right;
+    border-radius: 100%;
+    margin-top: 7px;
+}
+.cerrar{
+    width: 70%;
+    height: 100%;
+    float:left;
+    text-align: center;
+    padding-left: 10%;
+}
+.cerrar_Sec{
+    font-size: 14px;
+    color: #FF9F1C;
+    text-align: center;
+    margin-top: 22px;
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*INDICE-HEDER*/
+header{
+    width: 100%;
+    height: 50px;
+    margin-top: 1px;
+    text-align: center;
+    padding-top: 7px;
+
+}
+.indice{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.fondo_tifblue{
+    background: #2EC4B6;
+}
+main{
+    width: 100%;
+    height: 577px;
+    background-image: url(../img/fondo3.png);
+}
+.cont_opc{
+    margin-left: 4%;
+    margin-top: 80px;
+    width: 20%;
+    height: 400px;
+    float: left;
+    background: #CBF3F0;
+    border-radius: 10%;
+    padding-bottom: 10px;
+}
+.img-centro{
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 60%;
+    height: 140px;
+    border-radius: 100%;
+    background: #FFFFFF;
+}
+
+
+
+
+/*Inicio boton ir*/
+.btm_ir{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+.btn_ir ul{
+list-style: none;
+text-align: center;
+}
+.btn_ir ul li{
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.btn_ir ul li a{
+    display: block;
+    text-decoration: none;
+    color: #FFBF69;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-bottom: 2px solid #ffa124;
+    padding-top: 10px;
+}
+.btn_ir ul li a:hover{
+    background: rgba(150, 187, 185, 0.4);
+}
+.btn_his{
+    margin-top: 15px;
+}
+.btn_per{
+    margin-top: 31px;
+}
+.btn_fav{
+    margin-top: 15px;
+}.btn_car{
+    margin-bottom: 10px;
+}
+/*fin boton ir*/
+
+/*Boton de salida*/
+.btm_salida{
+    width: 100%;
+    height: 6%;
+    padding-bottom: 7px;
+    float: right;
+}
+.btn_salida ul{
+list-style: none;
+text-align: right;
+}
+.btn_salida ul li{
+    display: inline-block;
+    width: 180px;
+}
+.btn_salida ul li a{
+    display: block;
+    text-decoration: none;
+    color: #FFBF69;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 15px;
+    border-bottom: 2px solid #ffa124;
+}
+.btn_salida ul li a:hover{
+    background: rgba(189, 189, 189, 0.4);
+}
