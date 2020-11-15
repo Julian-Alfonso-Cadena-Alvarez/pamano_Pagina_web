@@ -31,13 +31,13 @@ nav{
 
  }
 .logo{
-    width: 15%;
+    width: 13%;
     height: 100%;
     float: left;
     text-align: center;
 }
 .logo img{
-    width: 30%;
+    width: 35%;
     height: 100%;
     margin-top: 1px;
     margin-bottom: 2px;
@@ -45,11 +45,11 @@ nav{
 }
 /*Inicio de Buscador*/
 .navegacion{
-    width: 70%;
+    width: 77%;
     height: 100%;
     float: left;
 }
-.navegacion1{
+.list_navegacion{
     width: 57%;
     height: 100%;
     float: right;
@@ -57,23 +57,34 @@ nav{
 }
 .Buscador{
     text-align: left;
-    width: 36%;
+    width: 330px;
     height: 50%;
-    padding:10px;
+    padding:20px;
     float: left;
-    margin-top: 2%;
+    margin-top: 6px;
     margin-left: 2px;
-    border-radius: 5px;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 2px solid #d17900;
 }
-.btn_buscar{
-    background: #FFBF69;
-    color: inherit;
-    font-size: 13px;
-    padding: 5px;
+body nav div.navegacion p.padding{
+    color: #0c97cb;
+    margin-left: 20px;
+    margin-right: 0px;
+    text-align: left;
+    margin-top: 25px;
+    padding-bottom: 0px;
     float: left;
-    margin-top: 2%;
-    margin-left: 3px;
-    border-radius: 5px;
+}
+body nav div.navegacion p a.btn_buscar{
+    border: 3px solid  #FF9F1C;
+    padding: 10px;
+    background-color: #FF9F1C;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
 }
 /*Nivel 0*/
 nav ul{
@@ -81,7 +92,7 @@ nav ul{
 	text-align: right;
 }
 nav ul li{
-    margin-right: 2px;
+    margin-right: 0px;
 	display: inline-block;
 	width: 130px;
 }
@@ -99,43 +110,22 @@ nav ul li a{
 nav ul li a:hover{
 	background: rgba(189, 189, 189, 0.5);
 }
-
 /*Fin del Buscador*/
-.seccion{
-    width: 15%;
-    height: 100%;
-    float: left;
-}
-.icon_sec{
-    width: 30%;
-    height: 100%;
-    float: left;
-
-}
-.icon{
-    text-align: center;
-    width: 70%;
-    height: 70%;
-    float: right;
-    border-radius: 100%;
-    margin-top: 7px;
-}
+/*Cerrar sesion - inicio*/
 .cerrar{
-    width: 70%;
+    width: 10%;
     height: 100%;
-    float:left;
-    text-align: center;
-    padding-left: 10%;
-}
-.cerrar_Sec{
-    font-size: 14px;
-    color: #FF9F1C;
-    text-align: center;
-    margin-top: 22px;
     float: left;
-    margin-left: 0px;
-    margin-right: 0px;
+    text-align: center;
+    padding-top: 20px;
 }
+
+body div.cerrar a {
+    font-size: 18px;
+    color: #FF9F1C;
+    text-decoration: none;
+}
+
 /*INDICE-HEDER*/
 header{
     width: 100%;
@@ -174,10 +164,8 @@ main{
     width: 60%;
     height: 140px;
     border-radius: 100%;
-    background: #FFFFFF;
+    background: #6799e4;
 }
-
-
 
 
 /*Inicio boton ir*/
@@ -205,7 +193,6 @@ text-align: center;
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    border-bottom: 2px solid #ffa124;
     padding-top: 10px;
 }
 .btn_ir ul li a:hover{
