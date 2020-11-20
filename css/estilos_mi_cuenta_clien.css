@@ -17,7 +17,7 @@ p{
     margin-right: 20px;
     text-align: justify;
     margin-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .borde{
     border: 1px solid black;
@@ -90,11 +90,14 @@ body nav div.navegacion p a.btn_buscar{
 nav ul{
 	list-style: none;
 	text-align: right;
+    background: rgba(255, 255, 255, 0.6);
 }
 nav ul li{
     margin-right: 0px;
-	display: inline-block;
 	width: 130px;
+}
+nav ul li:hover ul{
+    display: block;
 }
 nav ul li a{
 	display: block;
@@ -109,6 +112,17 @@ nav ul li a{
 }
 nav ul li a:hover{
 	background: rgba(189, 189, 189, 0.5);
+}
+/*Nivle 1*/
+nav li ul{
+    position: absolute;
+}
+nav .list_navegacion>ul>li{
+    display: inline-block;
+}
+nav li ul{
+    position: absolute;
+    display: none;
 }
 /*Fin del Buscador*/
 /*Cerrar sesion - inicio*/
@@ -199,15 +213,15 @@ text-align: center;
     background: rgba(150, 187, 185, 0.4);
 }
 .btn_his{
-    margin-top: 15px;
+    margin-top: -35px;
 }
 .btn_per{
-    margin-top: 31px;
+    margin-top: -1px;
 }
 .btn_fav{
-    margin-top: 15px;
+    margin-top: -2px;
 }.btn_car{
-    margin-bottom: 10px;
+    margin-top: -22px;
 }
 /*fin boton ir*/
 
