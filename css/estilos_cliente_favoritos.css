@@ -51,7 +51,7 @@ nav{
     float: left;
 }
 .list_navegacion{
-    width: 57%;
+    width: 56%;
     height: 100%;
     float: right;
     padding-top: 2px;
@@ -91,11 +91,15 @@ body nav div.navegacion p a.btn_buscar{
 nav ul{
 	list-style: none;
 	text-align: right;
+    background: rgba(255, 255, 255, 0.6);
 }
 nav ul li{
     margin-right: 0px;
-	display: inline-block;
 	width: 130px;
+    background: rgba(255, 255, 255, 0.6);
+}
+nav ul li:hover ul{
+    display: block;
 }
 nav ul li a{
 	display: block;
@@ -110,6 +114,17 @@ nav ul li a{
 }
 nav ul li a:hover{
 	background: rgba(189, 189, 189, 0.5);
+}
+/*Nivle 1*/
+nav li ul{
+    position: absolute;
+}
+nav .list_navegacion>ul>li{
+    display: inline-block;
+}
+nav li ul{
+    position: absolute;
+    display: none;
 }
 
 /*Fin del Buscador*/
@@ -151,10 +166,8 @@ header{
     width: 100%;
     height: auto;
     float: left;
+    background: url(../img/fondo3.png);
     padding-top: 50px;
-
-    background-color: #7bbaf4;
-    background-image: url(../img/fondo3.png);
 }
 .box_fav{
     width: 15%;
@@ -193,10 +206,12 @@ header{
     height: 6%;
     padding-bottom: 7px;
     float: right;
+
 }
 .btn_salida ul{
     list-style: none;
     text-align: right;
+    background: url(../img/fondo3.png);
 }
 .btn_salida ul li{
     display: inline-block;
