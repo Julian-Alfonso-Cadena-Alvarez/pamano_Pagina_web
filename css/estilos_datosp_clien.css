@@ -10,7 +10,6 @@ h2{
     text-align: center;
     font-size: 23px;
     color: #ffffff;
-    background-color: #CBF3F0;
 }
 p{
     color: #0c97cb;
@@ -91,11 +90,15 @@ body nav div.navegacion p a.btn_buscar{
 nav ul{
 	list-style: none;
 	text-align: right;
+    background: rgba(255, 255, 255, 0.6);
 }
 nav ul li{
     margin-right: 0px;
-	display: inline-block;
 	width: 130px;
+    background: rgba(255, 255, 255, 0.0);
+}
+nav ul li:hover ul{
+    display: block;
 }
 nav ul li a{
 	display: block;
@@ -111,7 +114,17 @@ nav ul li a{
 nav ul li a:hover{
 	background: rgba(189, 189, 189, 0.5);
 }
-
+/*Nivle 1*/
+nav li ul{
+    position: absolute;
+}
+nav .list_navegacion>ul>li{
+    display: inline-block;
+}
+nav li ul{
+    position: absolute;
+    display: none;
+}
 /*Fin del Buscador*/
 /*Cerrar sesion - inicio*/
 .cerrar{
@@ -196,13 +209,14 @@ input{
     font-size: 16px;
     border-radius: 3px;
     border: 1px solid #0C97CB;
-
 }
 .input-50{
     width: 48%;
+    margin-top: 10px;
 }
 .input-100{
     width: 100%;
+    margin-top: 15px;
 }
 .btn-regis{
     background: #0C97CB;
