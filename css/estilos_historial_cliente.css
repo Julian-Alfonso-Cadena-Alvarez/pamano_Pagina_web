@@ -171,7 +171,7 @@ main{
 }
 .Esp_tablas{
     width: 100%;
-    height: 550px;
+    height: 450px;
     background: none;
 
 
@@ -199,4 +199,36 @@ main div.Esp_tablas div.Pe_cancelados div.titulo_cancelados p{
     background:#0C97CB;
     margin: 0px;
     color: #ffffff;
+}
+/*Boton de salida*/
+.btm_salida{
+    width: 100%;
+    height: 6%;
+    padding-bottom: 7px;
+    float: right;
+    background-image: url(../img/fondo3.png);
+}
+.btn_salida ul{
+list-style: none;
+text-align: right;
+background-image: url(../img/fondo3.png);
+}
+.btn_salida ul li{
+    display: inline-block;
+    width: 180px;
+    background:rgba(133, 0, 255, 0);
+}
+.btn_salida ul li a{
+    display: block;
+    text-decoration: none;
+    color: #FFBF69;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 15px;
+    border-bottom: 2px solid #ffa124;
+}
+.btn_salida ul li a:hover{
+    background: rgba(189, 189, 189, 0.4);
 }
