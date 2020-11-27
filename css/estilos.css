@@ -292,12 +292,12 @@ body div.div-QuienesSomos div.div-Info div.textoQuienes p{
 /*Inicio COntactenos*/
 .CONTACTENOS{
     width: 100%;
-    height: 580px;
+    height: 620px;
     background-image: url(../img/fondo3.png);
 }/*Inicio Formulario*/
 .form-contacto{
     width: 50%;
-    height: 100%;
+    height: 92.5%;
     float: left;
     background: rgba(235, 111, 198, 0);
     padding-top: 50px;
@@ -369,13 +369,13 @@ input{
 /*Fin Formulario*/
 .mapa{
     width: 50%;
-    height: 50%;
+    height: 46%;
     float: left;
     background: rgba(235, 111, 198, 0);
 }
 .Direccion{
     width: 50%;
-    height: 50%;
+    height: 46%;
     float: left;
     background: rgba(235, 111, 198, 0);
 }
