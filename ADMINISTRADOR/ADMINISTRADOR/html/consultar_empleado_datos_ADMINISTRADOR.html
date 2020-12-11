@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Datos del vendedor</title>
+        <link rel="stylesheet" type="text/css" href="../css/consultar_empleado_datos_ADMINISTRADOR.css">
+        <link rel="shortcut icon" href="../img/Logo1.png">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="../img/Logo1.png" alt="">
+            </div>
+
+            <div class="navegacion">
+                <input type="text" name="Buscador" placeholder="Buscar" class="Buscador">
+                <p class="padding"><a href="#"class="btn_buscar">Buscar</a></p>
+
+                <div class="list_navegacion">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">MARCAS</a></li>
+                        <li><a href="#">QUIENES SOMOS</a></li>
+                        <li><a href="#">CONTACTENOS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cerrar">
+                <a href="#">Cerrar sesion</a>
+            </div>
+        </nav>
+
+        <!-- Encabezado -->
+        <header class="fondo_tifblue">
+            <h1 class="fondo_tifblue indice"> Mi Cuenta - Administrador - Usuarios - Datos Usuario </h1>
+        </header>
+
+        <!--FORMULARIO-->
+        <div class="Formulario">
+
+            <form class="form-registro" onsubmit="return validacion()" action="#" method="post" id="formulario">
+    
+                <h2 class ="form-titulo">Datos - Empleado</h2>
+    
+                <div class="cont-input">
+    
+                    <input type="text" id="nombres" name="Nombres" placeholder="Nombres" class="input-50">
+    
+                    <input type="text" id="apellidos" name="Apellidos" placeholder="Apellidos" class="input-50">
+    
+                    <input type="mail" id="correo" name="Correo" placeholder="Correo electronico" class="input-100">
+    
+                    <input type="text" id="usuario" name="Usuario" placeholder="Cedula" class="input-50">
+    
+                    <input type="text" id="telefono" name="Telefono" placeholder="Telefono" class="input-50">
+
+                    <select id="selectoruno" name="contrato" class="input-60">
+
+                        <option>Tipo de contrato</option>
+                        
+                        <option>Termino definido</option>
+                        
+                        <option>Termino indefinido</option>
+                        
+                        </select>
+
+                        <select id="selectordos" name="contrato" class="input-60">
+
+                            <option>Cargo</option>
+                            
+                            <option>Vendedor</option>
+                            
+                            <option>Administrador</option>
+                            
+                            </select>
+
+                        <input type="text" id="sueldo" name="sueldo" placeholder="Sueldo" class="input-100">
+                        <input type="text" id="comisiones" name="comisiones" placeholder="Comisiones" class="input-100">
+
+                        <select id="selectortres" name="EPS" class="input-60">
+
+                            <option>EPS</option>
+
+                            <option>Famisanar</option>
+                            
+                            <option>Salud total</option>
+                            
+                            <option>Compensar</option>
+                            
+                            </select>
+
+                        <p class="fecha">Fecha de vinculacion</p>
+
+                        <input type="date" placeholder="Fecha de vinculacion" class="input-50">
+
+                        <p class="fecha">Fecha de finalizacion</p>
+
+                        <input  type="date" placeholder="Fecha finalizacion de contrato" class="input-50">
+
+
+                        <input type="submit" value="Guardar" class="btn-regis btn-enviar">
+                        <p class="form-link"><a class="form-link" href="consultar_vendedor_ADMINISTRADOR.html">VOLVER</a></p>
+                </div>
+            </form>
+    
+            </div>
+
+            <script src="../JS/consultar_empleado_datos_ADMINISTRADOR.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,12 @@
+.chartContainer{
+    background-image: url(../img/fondo3.png);
+    height: 100px;
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+}
+
+.botton{
+    padding-top: 200px;
+}

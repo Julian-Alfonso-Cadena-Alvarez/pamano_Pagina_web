@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Registro de Ventas</title>
+        <link rel="stylesheet" type="text/css" href="../css/estilos.registrar_venta_cliente.css">
+        <link rel="shortcut icon" href="../img/Logo1.png">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="../img/Logo1.png" alt="">
+            </div>
+
+            <div class="navegacion">
+                <input type="text" name="Buscador" placeholder="Buscar" class="Buscador">
+                <p class="padding"><a href="#"class="btn_buscar">Buscar</a></p>
+
+                <div class="list_navegacion">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cerrar">
+                <a href="#">Cerrar sesion</a>
+            </div>
+        </nav>
+
+        <!-- Encabezado -->
+        <header class="fondo_tifblue">
+            <h1 class="fondo_tifblue indice">Inicio - Administrador - Registrar Venta
+        </header>
+
+        <div class="Formulario">
+
+        <form class="form-registro" onsubmit="return" action="#" method="post">
+
+            <h2 class ="form-titulo">Registro de Ventas</h2>
+
+            <div class="cont-input">
+
+              
+            
+                    <select class="Categoria">
+                      <option value="0"> Categorias</option>
+                      <option value="1">Escolar</option>  
+                      <option value="2">Comestible</option>  
+                      <option value="3">Tecnologico</option>  
+                      <option value="4">Ferreteria</option>  
+                      <option value="5">Cosmeticos</option>  
+                      <option value="6">Detalles</option>  
+                    </select>
+              
+ 
+                
+
+                <input type="text" name="Nombre del Producto" placeholder="Nombre del producto" class="input-100">
+              
+
+                <select class="Cantidad">
+                      <option value="0"> Cantidad</option>
+                      <option value="1">1</option>  
+                      <option value="2">2</option>  
+                      <option value="3">3</option>  
+                      <option value="4">4</option>  
+                      <option value="5">5</option>  
+                      <option value="6">6</option>  
+                      <option value="7">7</option>  
+                      <option value="8">8</option>  
+                      <option value="9">9</option>  
+                      <option value="10">10</option>  
+                      <option value="11">11</option>  
+                      <option value="12">12</option>  
+                      <option value="13">13</option>  
+                      <option value="14">14</option>  
+                      <option value="15">15</option>  
+
+                    </select>
+
+            
+
+                <input type="submit" value="Registrar venta" class="btn-regis btn-enviar">
+                <p class="form-link"><a class="form-link" href="#">Volver</a></p>
+
+            </div>
+            </form>
+
+    </body>
+</html>

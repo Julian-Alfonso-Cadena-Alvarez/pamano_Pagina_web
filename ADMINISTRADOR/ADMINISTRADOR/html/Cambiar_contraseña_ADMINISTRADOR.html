@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Datos Personales</title>
+        <link rel="stylesheet" type="text/css" href="../css/configurar_perfil_ADMINISTRADOR.css">
+        <link rel="shortcut icon" href="../img/Logo1.png">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="../img/Logo1.png" alt="">
+            </div>
+
+            <div class="navegacion">
+                <input type="text" name="Buscador" placeholder="Buscar" class="Buscador">
+                <p class="padding"><a href="#"class="btn_buscar">Buscar</a></p>
+
+                <div class="list_navegacion">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">MARCAS</a></li>
+                        <li><a href="#">QUIENES SOMOS</a></li>
+                        <li><a href="#">CONTACTENOS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cerrar">
+                <a href="#">Cerrar sesion</a>
+            </div>
+        </nav>
+
+        <!-- Encabezado -->
+        <header class="fondo_tifblue">
+            <h1 class="fondo_tifblue indice">Inicio - Administrador - Configurar perfil- Cambiar contraseña</h1>
+        </header>
+
+        <div class="Formulario">
+
+        <form class="form-registro" onsubmit="return validacion()" action="#" method="post">
+
+            <h2 class ="form-titulo">MI CUENTA- CAMBIAR CONTRASEÑA</h2>
+
+            <div class="cont-input">
+
+                <input type="password" id="contraseña1" name="Contraseña actual" placeholder="Contraseña actual" class="input-100">
+
+                <input type="password" id="contraseña2" name="Nueva contraseña" placeholder="Nueva contraseña" class="input-100">
+
+                <input type="password" id="confirmar" name="Confirmar contraseña" placeholder="Confirmar contraseña" class="input-100">
+
+
+                <input type="submit" value="Guardar" class="btn-regis btn-enviar">
+
+                <p class="form-link"><a class="form-link" href="configurar_perfil_ADMINISTRADOR.html">Volver</a></p>
+
+            </div>
+        </form>
+
+        </div>
+        <script src="../JS/cambiar_contraseña_ADMINISTRADOR.js"></script>
+    </body>
+</html>

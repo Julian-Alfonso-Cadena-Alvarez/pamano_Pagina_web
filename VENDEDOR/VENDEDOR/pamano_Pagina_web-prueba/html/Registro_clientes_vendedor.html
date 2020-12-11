@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Registro de Clientes</title>
+        <link rel="stylesheet" type="text/css" href="../css/estilos_registro_clientevendedor.css">
+        <link rel="shortcut icon" href="../img/Logo1.png">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="../img/Logo1.png" alt="">
+            </div>
+
+            <div class="navegacion">
+                <input type="text" name="Buscador" placeholder="Buscar" class="Buscador">
+                <p class="padding"><a href="#"class="btn_buscar">Buscar</a></p>
+
+                <div class="list_navegacion">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="cerrar">
+                <a href="#">Cerrar sesion</a>
+            </div>
+        </nav>
+
+        <!-- Encabezado -->
+        <header class="fondo_tifblue">
+            <h1 class="fondo_tifblue indice">Inicio - Vendedor - Venta - Registrar Cliente
+        </header>
+
+        <div class="Formulario">
+
+        <form class="form-registro" onsubmit="return" action="#" method="post">
+
+            <h2 class ="form-titulo">Registro de Clientes</h2>
+
+            <div class="cont-input">
+
+                <input type="text" name="Nombre" placeholder="Nombre" class="input-50">
+                <input type="text" name="Apellido" placeholder="Apellido" class="input-50">
+                <input type="text" name="Cedula de Ciudadania" placeholder="Cedula de Ciudadanía" class="input-100">
+                <input type="mail" name="Correo Electrónico" placeholder="Correo" class="input-100">
+
+                <select class="Tipo-teléfono">
+                  <option value="0">Tipo de Teléfono</option>
+                  <option value="1">Teléfono Fijo</option>
+                  <option value="2">Movil</option>
+                </select>
+
+                <input type="text" name="Teléfono" placeholder="Teléfono" class="input-50">
+                <input type="text" name="Dirección" placeholder="Dirección" class="input-100">
+                <input type="text" name="Producto" placeholder="Producto" class="input-50">
+                <input type="text" name="Cantidad" placeholder="Cantidad" class="input-50">
+                <input type="text" name="Total" placeholder="Total" class="input-100">
+                <input type="submit" value="Venta Realizada" class="btn-regis btn-enviar">
+
+                <p class="form-link"><a class="form-link" href="#">Volver</a></p>
+            </div>
+
+        </form>
+    </body>
+</html>
+
+

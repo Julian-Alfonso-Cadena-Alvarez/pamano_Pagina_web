@@ -1,0 +1,383 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin: 10px 20px 10px;
+    text-align: center;
+    font-size: 23px;
+    color: #ffffff;
+}
+p{
+    color: #0c97cb;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.borde{
+    border: 1px solid black;
+}
+
+/*NAVEGACION*/
+nav{
+    width: 100%;
+    height: 60px;
+    margin-top: 1px;
+
+ }
+.logo{
+    width: 13%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.logo img{
+    width: 35%;
+    height: 100%;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    border-radius: 100%;
+}
+/*Inicio de Buscador*/
+.navegacion{
+    width: 77%;
+    height: 100%;
+    float: left;
+}
+.list_navegacion{
+    width: 56%;
+    height: 100%;
+    float: right;
+    padding-top: 2px;
+}
+.Buscador{
+    text-align: left;
+    width: 330px;
+    height: 50%;
+    padding:20px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 2px;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 2px solid #d17900;
+}
+body nav div.navegacion p.padding{
+    color: #0c97cb;
+    margin-left: 20px;
+    margin-right: 0px;
+    text-align: left;
+    margin-top: 25px;
+    padding-bottom: 0px;
+    float: left;
+}
+body nav div.navegacion p a.btn_buscar{
+    border: 3px solid  #FF9F1C;
+    padding: 10px;
+    background-color: #FF9F1C;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+}
+/*Nivel 0*/
+nav ul{
+	list-style: none;
+	text-align: right;
+    background: rgba(255, 255, 255, 0.6);
+}
+nav ul li{
+    margin-right: 0px;
+	width: 130px;
+    background: rgba(255, 255, 255, 0.0);
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li a{
+	display: block;
+	text-decoration: none;
+	color:#FF9F1C;
+	font-weight: bold;
+	text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+	padding: 10px 2px;
+	border-bottom: 2px solid #d17900;
+}
+nav ul li a:hover{
+	background: rgba(189, 189, 189, 0.5);
+}
+/*Nivle 1*/
+nav li ul{
+    position: absolute;
+}
+nav .list_navegacion>ul>li{
+    display: inline-block;
+}
+nav li ul{
+    position: absolute;
+    display: none;
+}
+/*Fin del Buscador*/
+/*Cerrar sesion - inicio*/
+.cerrar{
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+
+body div.cerrar a {
+    font-size: 15px;
+    color: #FF9F1C;
+    text-decoration: none;
+}
+
+/*Cerrar sesion - fin*/
+/*INDICE-HEDER*/
+header{
+    width: 100%;
+    height: 50px;
+    margin-top: 1px;
+    text-align: center;
+    padding-top: 15px;
+}
+header div.lineas ul{
+	list-style: none;
+	text-align: right;
+    background: rgba(255, 255, 255, 0.6);
+}
+header div.lineas ul li{
+    margin-right: 0px;
+	width: 130px;
+    background: rgba(255, 255, 255, 0.0);
+}
+header div.lineas ul li:hover ul{
+    display: block;
+}
+header div.lineas ul li a{
+	display: block;
+	text-decoration: none;
+	color:#FF9F1C;
+	font-weight: bold;
+	text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+	padding: 10px 2px;
+	border-bottom: 2px solid #d17900;
+}
+header div.lineas ul li a:hover{
+	background: rgba(189, 189, 189, 0.5);
+}
+
+.indice{
+    margin-top: 5px;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.fondo_tifblue{
+    background: #2EC4B6;
+}
+.fav-car{
+    padding-left: 20%;
+    font-size: 15px;
+}
+/*fin*/
+/*inicio Carousel*/
+.w-100{
+    max-width: 100%;
+    max-height: 700px;
+}
+/*Fin carousel*/
+/*Inicio Nuestras Marcas*/
+.div-NuestrasMarcas{
+    width: 100%;
+    height: 740px;
+    background: url(../img/fondo3.png);
+}
+.div-Titulo{
+    width: 100%;
+    height: 50px;
+    background: #2EC4B6;
+    padding-top: 2px;
+}
+.Titulo{
+    background: #2EC4B6;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+.div-marcas{
+    width: 100%;
+    height: 500px;
+    background: rgba(4, 16, 22, 0)
+}
+.cont-marca{
+    width: 25%;
+    height: 50%;
+    margin-left: 6%;
+    margin-top: 60px;
+    float: left;
+}
+/*Fin Nuestras Marcas*/
+/*Inicio Quines Somos*/
+.div-QuienesSomos{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/fondo3.png);
+
+}
+.div-Info{
+    width: 30%;
+    height: 70%;
+    margin-top: 45px;
+    border-radius: 15px;
+    margin-left: 2.5%;
+    background: #CBF3F0;
+    float: left;
+}
+.iconoVision{
+    width: 40%;
+    height: 50%;
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    background: #CBF3F0;
+}
+.iconoprov{
+    width: 40%;
+    height: 50%;
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-bottom:10px;
+    border-radius: 0%;
+    background: #CBF3F0;
+}
+body div.div-QuienesSomos div.div-Info div.iconoVision img{
+    width: 100%;
+    border-radius: 100%;
+    margin-top: 0px;
+    background: #CBF3F0;
+}
+body div.div-QuienesSomos div.div-Info div.iconoprov img{
+    width: 100%;
+    border-radius: 0%;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    background: #CBF3F0;
+}
+.textoQuienes{
+    text-align: center;
+    background: #CBF3F0;
+}
+body div.div-QuienesSomos div.div-Info div.textoQuienes h3{
+    font-size: 35px;
+    color:#0c97cb;
+    background: #CBF3F0;
+}
+body div.div-QuienesSomos div.div-Info div.textoQuienes p{
+    background: #CBF3F0;
+}
+/*Fin de Quienes Somos*/
+/*Inicio COntactenos*/
+.CONTACTENOS{
+    width: 100%;
+    height: 620px;
+    background-image: url(../img/fondo3.png);
+}/*Inicio Formulario*/
+.form-contacto{
+    width: 50%;
+    height: 92.5%;
+    float: left;
+    background: rgba(235, 111, 198, 0);
+    padding-top: 50px;
+}
+.form-registro{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    background: #ffff;
+    border-radius: 7px;
+    background-color: #CBF3F0;
+}
+.borde-naran{
+    border: 2px solid  #FFBF69;
+}
+.form-titulo{
+    width: 100%;
+    background: #2EC4B6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid #0C97CB;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.cont-input{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #CBF3F0;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #0C97CB;
+}
+.input-50{
+    width: 48%;
+    margin-top: 10px;
+}
+.input-100{
+    width: 100%;
+    margin-top: 15px;
+}
+.text-enviar{
+    width: 100%;
+    height: 150px;
+    text-align-last: justify;
+}
+.btn-enviar{
+    background: #0C97CB;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Fin Formulario*/
+.mapa{
+    width: 50%;
+    height: 46%;
+    float: left;
+    background: rgba(235, 111, 198, 0);
+}
+.Direccion{
+    width: 50%;
+    height: 46%;
+    float: left;
+    background: rgba(235, 111, 198, 0);
+}
+
+/*Fin de Contactenos*/

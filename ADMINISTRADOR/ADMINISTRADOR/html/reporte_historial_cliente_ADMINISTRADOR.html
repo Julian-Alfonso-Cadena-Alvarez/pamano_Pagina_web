@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" >
+    
+
+</head>
+<body > 
+	<script>
+		window.onload = function () {
+		
+		var chart = new CanvasJS.Chart("chartContainer", {
+			animationEnabled: true,
+			theme: "light2", // "light1", "light2", "dark1", "dark2"
+			title: {
+				text: "Reporte de pedidos - Mes X"
+			},
+			axisY: {
+				title: "Cantidad de pedidos",
+				
+			},
+			axisX: {
+				title: "Pedidos"
+			},
+			data: [{
+				type: "column",
+				dataPoints: [
+					{ y: 4, label: "Pedidos cancelados" },	
+					{ y: 6 , label: "Pedidos realizados" }
+					
+				]
+			}]
+		});
+		chart.render();
+		
+		}
+		</script>
+    
+<div  id="chartContainer" style="height:500px; width:auto; padding-top: 20px; background-image: url(../img/fondo3.png);"  ></div>
+
+
+
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

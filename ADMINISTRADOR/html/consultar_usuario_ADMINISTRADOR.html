@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> Consultar usuario - Administrador</title>
+        <link rel="stylesheet" type="text/css" href="../css/consultar_usuario_ADMINISTRADOR.css">
+        <link rel="shortcut icon" href="../img/Logo1.png">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="../img/Logo1.png" alt="">
+            </div>
+
+            <div class="navegacion">
+                <input type="text" name="Buscador" placeholder="Buscar" class="Buscador">
+                <p class="padding"><a href="#"class="btn_buscar">Buscar</a></p>
+
+                <div class="list_navegacion">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">MARCAS</a></li>
+                        <li><a href="#">QUIENES SOMOS</a></li>
+                        <li><a href="#">CONTACTENOS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cerrar">
+                <a href="#">Cerrar sesion</a>
+            </div>
+        </nav>
+
+        <!-- Encabezado -->
+        <header class="fondo_tifblue">
+            <h1 class="fondo_tifblue indice"> Mi Cuenta - Administrador - Consultar Usuario </h1>
+        </header>
+
+        <div class="Formulario">
+
+        <form class="form-registro" onsubmit="return validacion()" action="" method="post">
+
+            <h2 class ="form-titulo">Usuarios - Consultar Usuario</h2>
+
+            <div class="cont-input">
+
+                <input type="text" id="nombres" name="Nombres" placeholder="Nombres" class="input-50">
+
+                <input type="text" id="apellidos" name="Apellidos" placeholder="Apellidos" class="input-50">
+
+                <input type="text" id="usuario" name="Usuario" placeholder="Cedula" class="input-50">
+
+                <input type="text" id="telefono" name="Telefono" placeholder="Telefono" class="input-50">
+
+                <input type="mail" id="correo" name="Correo" placeholder="Correo electronico" class="input-100">
+
+              
+
+               
+                <p class="form-link"><a class="btn-regis btn-enviar" onclick="validacion()" href="consultar_cliente_ADMINISTRADOR.html" >Consultar Cliente</a></p>
+                <p class="form-link"><a class="btn-regis btn-enviar" onclick="validacion()" href="consultar_vendedor_ADMINISTRADOR.html" >Consultar Vendedor</a></p>
+
+                
+
+                
+
+                <p class="form-link"><a class="form-link" href="mi_cuenta_INICIO_ADMINISTRADOR.html">Volver</a></p>
+
+            </div>
+        </form>
+
+        </div>
+        <script src="../JS/consultar_usuario_ADMINISTRADOR.js"></script>
+    </body>
+</html>

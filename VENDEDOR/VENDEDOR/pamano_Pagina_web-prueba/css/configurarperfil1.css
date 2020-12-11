@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    margin: 70px 20px 10px;
+    text-align: center;
+    font-size: 23px;
+    color: #0c97cb;
+}
+p{
+    color: #0c97cb;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.borde{
+    border: 1px solid black;
+}
+
+/*NAVEGACION*/
+nav{
+    width: 100%;
+    height: 60px;
+    margin-top: 1px;
+
+ }
+.logo{
+    width: 13%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.logo img{
+    width: 35%;
+    height: 100%;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    border-radius: 100%;
+}
+/*Inicio de Buscador*/
+.navegacion{
+    width: 77%;
+    height: 100%;
+    float: left;
+}
+.list_navegacion{
+    width: 57%;
+    height: 100%;
+    float: right;
+    padding-top: 2px;
+}
+.Buscador{
+    text-align: left;
+    width: 330px;
+    height: 50%;
+    padding:20px;
+    float: left;
+    margin-top: 6px;
+    margin-left: 2px;
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: 2px solid #d17900;
+}
+body nav div.navegacion p.padding{
+    color: #0c97cb;
+    margin-left: 20px;
+    margin-right: 0px;
+    text-align: left;
+    margin-top: 25px;
+    padding-bottom: 0px;
+    float: left;
+}
+body nav div.navegacion p a.btn_buscar{
+    border: 3px solid  #FF9F1C;
+    padding: 10px;
+    background-color: #FF9F1C;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 50px;
+}
+/*Nivel 0*/
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+nav ul li{
+    margin-right: 0px;
+    display: inline-block;
+    width: 130px;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color:#FF9F1C;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 10px 2px;
+    border-bottom: 2px solid #d17900;
+}
+nav ul li a:hover{
+    background: rgba(189, 189, 189, 0.5);
+}
+/*Fin del Buscador*/
+/*Cerrar sesion - inicio*/
+.cerrar{
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+
+body div.cerrar a {
+    font-size: 18px;
+    color: #FF9F1C;
+    text-decoration: none;
+}
+
+/*INDICE-HEDER*/
+header{
+    width: 100%;
+    height: 50px;
+    margin-top: 1px;
+    text-align: center;
+    padding-top: 7px;
+
+}
+.indice{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.fondo_tifblue{
+    background: #2EC4B6;
+}
+main{
+    width: 100%;
+    height: 577px;
+    background-image: url(../img/fondo3.png);
+}
+.perfil{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background: #F6E389;
+    border-right: 2px solid #FF9F1C;
+   padding: flex;
+    padding-bottom: 10px;
+}
+.foto{
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 55%;
+    height: 200px;
+    border-radius: 50%;
+    background: #fff;
+    border:2px solid #0c97cb;
+}
+.space{
+    width: 80%;
+     height: 40px;
+     float: left;
+     background-color: #fff;
+     margin-left: 35px;
+     border:1px solid black;
+}
+.boton{
+     width: 50%;
+     height: 40px;
+     float: left;
+     background-color: #fff;
+     margin-top: 110px;
+     margin-left: 90px;
+     border-radius: 30px;
+     border: 3px solid #0c97cb;
+}
+
+
+.btn_miperfil ul li{
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 5px;
+
+}
+.btn_miperfil ul li a{
+    display: block;
+    text-decoration: none;
+    color: #BA4A00;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 70px;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+.btn_compras{
+    width: 50%;
+     height: 40px;
+     float: left;
+     background-color: #fff;
+     margin-top: 30px;
+     margin-left: 70px;
+     border-radius: 30px;
+     border: 3px solid #BA4A00;
+}
+.btn_ir ul{
+list-style: none;
+text-align: center;
+}
+.btn_ir ul li{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 30px;
+}
+.btn_ir ul li a{
+    display: block;
+    text-decoration: none;
+    color: #BA4A00;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 18px;
+    margin-right: 80px;
+    padding-top: 4.5px;
+}
+.cont_compras{
+    margin-left: 9%;
+    margin-top: 120px;
+    width: 20%;
+    height: 350px;
+    float: left;
+    background: #CBF3F0;
+    border-radius: 5%;
+    padding-bottom: 10px;
+    border: 1px solid #0c97cb;
+}
+.compras{
+    width: 80%;
+    height:200px;
+   float: center;
+}
+.compras img{
+    width: 65%;
+    height: 60%;
+    border-radius: 5%;
+    margin: 60px;
+    margin-top: 12%;
+}
+
+.cont_ventas{
+    margin-left: 15%;
+    margin-top: 120px;
+    width: 20%;
+    height: 350px;
+    float: left;
+    background: #CBF3F0;
+    border-radius: 5%;
+    padding-bottom: 10px;
+    border: 1px solid #0c97cb;
+
+}
+.ventas{
+    width: 80%;
+    height:200px;
+   float: center;
+}
+.ventas img{
+    width: 65%;
+    height: 60%;
+    border-radius: 5%;
+    margin: 60px;
+    margin-top: 10%;
+}
+
+h3{
+    text-align: center;
+    margin: 15px;
+    margin-top: 20px;
+}

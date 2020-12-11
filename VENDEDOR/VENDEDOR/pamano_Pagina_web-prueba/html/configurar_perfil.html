@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Configurar Perfil - Vendedor</title>
+        <link rel="stylesheet" type="text/css" href="../css/estilos_configurar_perfil.css">
+        <link rel="shortcut icon" href="../img/Logo1.png">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">
+                <img src="../img/Logo1.png" alt="">
+            </div>
+
+            <div class="navegacion">
+                <input type="text" name="Buscador" placeholder="Buscar" class="Buscador">
+                <p class="padding"><a href="#"class="btn_buscar">Buscar</a></p>
+
+                <div class="list_navegacion">
+                    <ul>
+                        <li><a href="#">INICIO</a></li>
+                        <li><a href="#">MARCAS</a></li>
+                        <li><a href="#">QUIENES SOMOS</a></li>
+                        <li><a href="#">CONTACTENOS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cerrar">
+                <a href="#">Cerrar sesion</a>
+            </div>
+        </nav>
+
+        <!-- Encabezado -->
+        <header class="fondo_tifblue">
+            <h1 class="fondo_tifblue indice">Inicio - Vendedor - Configurar Perfil</h1>
+        </header>
+
+        <div class="Formulario">
+
+        <form class="form-registro" onsubmit="return validacion()" action="Cambiar_contraseña.html" method="post">
+
+            <h2 class ="form-titulo">Mi Cuenta</h2>
+
+            <div class="cont-input">
+
+                <input type="text" id="nombres" name="Nombres" placeholder="Nombres" class="input-50">
+
+                <input type="text" id="apellidos" name="Apellido" placeholder="Apellido" class="input-50">
+
+                <input type="text" id="usuario" name="Cedula de Ciudadania" placeholder="Cedula de Ciudadania" class="input-100">
+
+                <input type="text" id="correo" name="Correo Eletrónico" placeholder="Correo Electrínico" class="input-50">
+
+                <input type="text" id="telefono" name="Teléfono" placeholder="Teléfono" class="input-50">
+
+                <input type="submit" value="Guardar" class="btn-regis btn-enviar">
+
+                <a class="btn-regis btn-enviar" href="Cambiar_contraseña.html">Cambiar Contraseña</a>
+
+                <p class="form-link"><a class="form-link" href="configurarp_vendedor.html">VOLVER</a></p>
+
+       </div>
+       </form>
+
+</div>
+
+        <script src="../JS/configurar_perfil_VENDEDOR.js"></script>
+    </body>
+</html>
